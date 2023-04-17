@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "C086C7FC-2362-4629-85CB-F7F45F0C5E8C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DataStructures.xcodeproj",
+      "identifier" : "FDD29D1F29EBD3E200321F83",
+      "name" : "DataStructures"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:DataStructures.xcodeproj",
+        "identifier" : "FDD29D2F29EBD3E300321F83",
+        "name" : "DataStructuresTests"
+      }
+    }
+  ],
+  "version" : 1
+}

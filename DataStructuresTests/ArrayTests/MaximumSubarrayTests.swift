@@ -8,6 +8,8 @@
 import XCTest
 @testable import DataStructures
 
+// Given an integer array nums, find the subarray with the largest sum, and return its sum. This is also called Kadane's algorithm.
+
 final class MaximumSubarrayTests: XCTestCase {
 
     private let maximumSubarray = MaximumSubarray()
