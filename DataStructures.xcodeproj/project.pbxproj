@@ -18,6 +18,8 @@
 		FDD29D3529EBD3E300321F83 /* DataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD29D3429EBD3E300321F83 /* DataStructuresTests.swift */; };
 		FDEF200F2A091CDA00AE7AFC /* GCDOfStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF200E2A091CDA00AE7AFC /* GCDOfStrings.swift */; };
 		FDEF20112A091F4500AE7AFC /* GCDOfStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF20102A091F4500AE7AFC /* GCDOfStringsTests.swift */; };
+		FDEF20132A09257300AE7AFC /* GreatestNumberIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF20122A09257300AE7AFC /* GreatestNumberIndex.swift */; };
+		FDEF20152A09286E00AE7AFC /* GreatestNumberIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEF20142A09286E00AE7AFC /* GreatestNumberIndexTests.swift */; };
 		FDF02E0B29EC3BC700DFF593 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF02E0A29EC3BC700DFF593 /* ContainsDuplicate.swift */; };
 		FDF02E0D29EC3DBF00DFF593 /* ContainsDuplicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF02E0C29EC3DBF00DFF593 /* ContainsDuplicateTests.swift */; };
 		FDF02E0F29ED25B600DFF593 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF02E0E29ED25B600DFF593 /* MaximumSubarray.swift */; };
@@ -51,6 +53,8 @@
 		FDD29D3429EBD3E300321F83 /* DataStructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresTests.swift; sourceTree = "<group>"; };
 		FDEF200E2A091CDA00AE7AFC /* GCDOfStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDOfStrings.swift; sourceTree = "<group>"; };
 		FDEF20102A091F4500AE7AFC /* GCDOfStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDOfStringsTests.swift; sourceTree = "<group>"; };
+		FDEF20122A09257300AE7AFC /* GreatestNumberIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestNumberIndex.swift; sourceTree = "<group>"; };
+		FDEF20142A09286E00AE7AFC /* GreatestNumberIndexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestNumberIndexTests.swift; sourceTree = "<group>"; };
 		FDF02E0A29EC3BC700DFF593 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
 		FDF02E0C29EC3DBF00DFF593 /* ContainsDuplicateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicateTests.swift; sourceTree = "<group>"; };
 		FDF02E0E29ED25B600DFF593 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 			children = (
 				FD3973D42A0783B900255979 /* MergeStringsAlternatelyTests.swift */,
 				FDEF20102A091F4500AE7AFC /* GCDOfStringsTests.swift */,
+				FDEF20142A09286E00AE7AFC /* GreatestNumberIndexTests.swift */,
 			);
 			path = StringTests;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				FDF02E0A29EC3BC700DFF593 /* ContainsDuplicate.swift */,
 				FDF02E0E29ED25B600DFF593 /* MaximumSubarray.swift */,
 				FDF02E1429EDBC3500DFF593 /* MergeSortedArray.swift */,
+				FDEF20122A09257300AE7AFC /* GreatestNumberIndex.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 			files = (
 				FD3973D12A07776400255979 /* MergeStringsAlternately.swift in Sources */,
 				FDF02E0B29EC3BC700DFF593 /* ContainsDuplicate.swift in Sources */,
+				FDEF20132A09257300AE7AFC /* GreatestNumberIndex.swift in Sources */,
 				FDEF200F2A091CDA00AE7AFC /* GCDOfStrings.swift in Sources */,
 				FDF02E1529EDBC3500DFF593 /* MergeSortedArray.swift in Sources */,
 				FDD29D2629EBD3E200321F83 /* ContentView.swift in Sources */,
@@ -286,6 +293,7 @@
 				FD3973D52A0783B900255979 /* MergeStringsAlternatelyTests.swift in Sources */,
 				FDF02E1729EDC39700DFF593 /* MergeSortedArrayTests.swift in Sources */,
 				FDEF20112A091F4500AE7AFC /* GCDOfStringsTests.swift in Sources */,
+				FDEF20152A09286E00AE7AFC /* GreatestNumberIndexTests.swift in Sources */,
 				FDD29D3529EBD3E300321F83 /* DataStructuresTests.swift in Sources */,
 				FDF02E0D29EC3DBF00DFF593 /* ContainsDuplicateTests.swift in Sources */,
 				FDF02E1329EDBA4800DFF593 /* MaximumSubarrayTests.swift in Sources */,

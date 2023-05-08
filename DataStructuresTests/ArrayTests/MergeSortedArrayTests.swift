@@ -43,5 +43,4 @@ final class MergeSortedArrayTests: XCTestCase {
         let input = mergeSortedArray.getArray(from: nums1, withLength: m, from: nums2, withLength: n)
         XCTAssertEqual(input, output)
     }
-
 }
